@@ -1,0 +1,23 @@
+1 Download Debian Iso From https://www.debian.org/
+2 Flash Debian Iso Using Rufus dd Mode Ventoy Or BalenaEtcher
+3 If You Are On Debian Installer menu I Would Recommend Selecting Install Not Graphical Install
+4 If You Are On Tasksel I Would Recommend To Deselect Gnome And Debian Desktop Environment By Pressing Space On GNOME And Debian Desktop Environment just standard system utilities only then press enter
+5 After You Install It Login Then enter su - then apt install sudo then sudo nano /etc/sudoers then add yourusername  ALL=(ALL:ALL) ALL Then ctrl x y enter then type exit to exit root
+6 run sudo apt update && sudo apt upgrade
+7 sudo apt install fastfetch
+8 Run sudo nano /etc/os-release
+  Then Change PRETTY_NAME="Debian GNU/Linux 13 (trixie)" To PRETTY_NAME="Adrenaline Linux"
+  Then Change NAME="Debian GNU/Linux" To NAME="Adrenaline Linux"
+  Then Change VERSION_ID="13" To VERSION_ID=""
+  Then Change VERSION="13 (trixie)" To VERSION=""
+  Then Change VERSION_CODENAME=trixie To VERSION_CODENAME=
+  Then Change DEBIAN_VERSION_FULL=13.3 To DEBIAN_VERSION_FULL=
+  Then Change ID=debian to ID=adrenaline
+  Then Change HOME_URL="https://www.debian.org/" To HOME_URL="https://github.com/Haikal02-alt/Adrenaline-Linux"
+9 Then Run sudo nano /etc/issue Then Change Debian GNU/Linux 13 \n \l To Adrenaline Linux \n \l
+  Then Run sudo nano /etc/issue.net Then Change Debian GNU/Linux 13 To Adrenaline Linux
+  Then update-grub with sudo update-grub for grub
+10 run sudo nano /etc/grub.d/10_linux
+   Then Change OS=GNU/Linux To OS= If You See Any OS=GNU/Linux And Also Change OS="${GRUB_DISTRIBUTOR} GNU/Linux" To OS="${GRUB_DISTRIBUTOR}" Then sudo update-grub
+
+11 Have Fun And Start Using This OS
