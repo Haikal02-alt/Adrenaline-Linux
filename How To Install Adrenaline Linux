@@ -18,6 +18,7 @@
   Then Run sudo nano /etc/issue.net Then Change Debian GNU/Linux 13 To Adrenaline Linux
   Then update-grub with sudo update-grub for grub
 10 run sudo nano /etc/grub.d/10_linux
-   Then Change OS=GNU/Linux To OS= If You See Any OS=GNU/Linux And Also Change OS="${GRUB_DISTRIBUTOR} GNU/Linux" To OS="${GRUB_DISTRIBUTOR}" Then sudo update-grub
+   Then Change OS=GNU/Linux To OS= If You See Any OS=GNU/Linux And Also Change OS="${GRUB_DISTRIBUTOR} GNU/Linux" To OS="${GRUB_DISTRIBUTOR}" Then Find GRUB_DISABLE_SUBMENU= Then Change GRUB_DISABLE_SUBMENU="true" To GRUB_DISABLE_SUBMENU="false"
+   Then Update Grub using sudo update-grub
 
 11 Have Fun And Start Using This OS
