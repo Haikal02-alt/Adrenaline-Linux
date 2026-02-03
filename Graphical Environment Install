@@ -1,0 +1,27 @@
+1 Run Tasksel Using sudo tasksel
+2 You Can Choose Whatever You Want (LXDE Is Recommended For Older Machines)
+3 If You Are Installing LXDE I Would Recommend To Switch To LXDM (If LightDM Is Installed But Not LXDM) 
+  1 Run sudo apt remove --purge lightdm
+  2 Then Run sudo apt autoremove
+  3 Install LXDM sudo apt install lxdm
+  4 Reboot using sudo reboot
+  
+After You Install A Graphical Environment
+Go To https://github.com/Haikal02-alt/Adrenaline-Linux
+The Download Adrenaline Linux Logo On Readme by Clicking Save Image As
+If You See 544244630-03f6bf27-78f9-4378-a30d-8987fc5bd6ee.png Change It To adrenalinelinux-logo.png Then Save It To Download
+Then sudo mv /home/yourname/Downloads/adrenalinelinux-logo.png /usr/share/pixmaps
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/pixmaps/debian-logo.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/pixmaps/debian-security.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo.svg
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-64.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-128.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-256.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-text.svg
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-text-64.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-text-128.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-text-256.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-text-version.svg
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-text-version-64.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-text-version-128.png
+Then sudo cp /usr/share/pixmaps/adrenalinelinux-logo.png /usr/share/desktop-base/debian-logos/logo-text-version-256.png
