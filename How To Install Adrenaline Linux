@@ -22,5 +22,6 @@
    Then Update Grub using sudo update-grub
 11 Run sudo rm /usr/share/desktop-base/ceratopsian-theme/grub/grub-4x3.png
    Then sudo rm /usr/share/desktop-base/ceratopsian-theme/grub/grub-16x9.png
+   (Graphical Environment Only)
 12 run sudo nano /etc/default/grub then change GRUB_CMDLINE_LINUX_DEFAULT="quiet" To GRUB_CMDLINE_LINUX_DEFAULT="" Then sudo update-grub
 13 Have Fun And Start Using This OS
